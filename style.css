@@ -1,0 +1,74 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#container {
+    width: 1000px;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    margin: 20px auto;
+}
+
+#bankApp {
+    width: 350px;
+    background-color: #eaedef;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#balanceBox {
+    background: #222;
+    color: lime;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#keyboard {
+    margin: 10px 0;
+    text-align: center;
+}
+
+#keyboard input {
+    width: 80%;
+    height: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+button.operator {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#history {
+    margin-top: 15px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#history ul {
+    list-style: none;
+    padding: 0;
+}
+
+#history li {
+    margin: 5px 0;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}

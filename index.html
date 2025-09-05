@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank App Part 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="bankApp">
+            <h2>💰 Bank App</h2>
+            <div id="balanceBox">
+                Balance: <span id="balance">0</span> ₹
+            </div>
+
+            <div id="keyboard">
+                <input type="number" id="amount" placeholder="Enter amount">
+                <button class="operator" id="addIncome">+ Income</button>
+                <button class="operator" id="addExpense">- Expense</button>
+                <button class="operator" id="clear">Clear All</button>
+            </div>
+
+            <div id="history">
+                <h3>Transactions</h3>
+                <ul id="list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
